@@ -1,0 +1,140 @@
+body
+{
+    background: url('images/yellow_background.png');
+	font-family: times new roman, Arial, sans-serif;
+	color: #181818;
+}
+
+
+	
+#main_wrapper
+{
+    width: 880px;
+    margin: auto;
+	margin-top: 50px;
+}
+	
+
+
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: -30px;
+	font-size: 2.4em;
+}
+
+/* Navigation */
+
+nav
+{
+    
+    width: 740px;
+    text-align: left;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.5em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#banner
+{
+	color: blue;
+	font-size: 1.3em;
+	text-align: center;
+	border: 3px blue solid;
+	border-radius: 10px;
+	width: 890px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+	
+}
+
+article
+{
+    width: 560px;
+    margin-right: 15px;
+	font-size: 1.3em;
+	text-align: justify;
+	border: 3px black solid;
+	border-radius: 10px;
+	padding: 12px;
+}
+
+#textfull
+{
+    width: 850px;
+	margin-top: 50px;
+    margin-right: 15px;
+	margin-bottom: 50px;
+	font-size: 1.3em;
+	text-align: justify;
+	border: 3px black solid;
+	border-radius: 10px;
+	padding: 12px;
+}
+
+footer h1
+{
+	font-size: 1.3em;
+	border-radius: 10px;
+	padding: 12px;
+}
+
+#border
+{
+	border: 3px black solid;
+	border-radius: 10px;	
+}
+
+#mail, #telefono,  #direccion
+{
+    display: inline-block;
+    vertical-align: top;
+	
+}
+#mail
+{
+    width: 30%;
+	text-align: center;
+}
+
+#telefono
+{
+    width: 33%;
+	text-align: center;
+}
+
+
+#direccion
+{
+    width: 30%;
+	text-align: center;
+}
